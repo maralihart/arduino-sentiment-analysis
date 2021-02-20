@@ -1,5 +1,22 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <h1>{% block title %} Welcome to FlaskBlog {% endblock %}</h1>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1>Sentiment Analysis</h1>
+      <hr>
+      <form action="/analyze-text" method="POST">
+
+        <div class="form-group">
+          <label>Text to Analyze</label>
+          <input type="text" class="form-control" id="text" name="text" placeholder="Paste text you'd like to analyze here">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Analyze Text</button>
+      
+      </form>
+    </div>
+  </div>
+</div>
 {% endblock %}
