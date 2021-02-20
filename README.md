@@ -39,4 +39,4 @@ This is my first time working on a hardware hack as well as my first time workin
 I learned more about how to put a breadboard together to create a working circuit! I also had the chance to learn more about sentiment analysis and how to analyze the numbers outputted.
 
 ## What's next for Sentiment Analysis with Arduino Lights
-In the future, I want to get more hardware so I can connect my Arduino with APIs and make the transition more seamless. I'd also love to design a clean box for the Arduino to sit in so users can put it either next to or on their laptop for easy reference. Then the web app could connect with Arduino hardware.
+In the future, I want to get more hardware so I can connect my Arduino with APIs and make the transition more seamless. I'd also love to design a clean box for the Arduino to sit in so users can put it either next to or on their laptop for easy reference. Then the web app (registered at whatdotheymean.online) could connect with Arduino hardware.
