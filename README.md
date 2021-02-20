@@ -32,6 +32,8 @@ Users can take a test file and based off of that score, the LED on the Arduino w
 I followed documentation on Google Cloud's website on how to set up sentiment analysis using their natural language processing. I also looked up how to connect Arduino to Python so make the transition a little easier.
 I also created a Flask app to allow for a software implementation of this app.
 
+Technologies Used: Flask, Google Cloud Natural Language Processing API, Google Cloud Compute Engine, Arduino Uno
+
 ## Challenges we ran into
 I had trouble connecting the Arduino to the Python as the recommend library required 3.7 and I had 3.8. I also am not familiar with setting up apps; I often work on them, but they're set up first and then I help out, so that was a learning curve. I'm pretty new to Flask and haven't done my own Flask project before.
 ## Accomplishments that we're proud of

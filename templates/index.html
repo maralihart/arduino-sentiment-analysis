@@ -4,21 +4,25 @@
 <div class="container">
   <div class="row">
     <div class="col">
-      <h1>Sentiment Analysis</h1>
+      <h1 class="mt-4">Sentiment Analysis</h1>
       <hr>
       <form action="/" method="POST">
 
         {% if analysis %}
           {% if analysis < -(0.2) %}
-            <p class="text-danger float-right">Text analyzed is negative</p>
+            <div class="bg-danger px-3 py-1 pt-3 mb-2">
+              <strong class="text-white">Text below is negative</strong>
           {% elif analysis <= (0.2) %}
-            <p class="text-alert float-right">Text analyzed is neutral</p>
+            <div class="bg-info px-3 py-1 pt-3 mb-2">
+              <strong class="text-white">Text below is neutral</strong>
           {% else %}
-            <p class="text-success float-right">Text analyzed is positive</p>
+            <div class="bg-success px-3 py-1 pt-3 mb-2">
+              <strong class="text-white">Text below is positive</strong>
           {% endif %}
-          <p>
-            {{ text }}
-          </p>
+            <p class="text-white bold">
+              {{ text }}
+            </p>
+          </div>
         {% endif %}
 
         <div class="form-group">
