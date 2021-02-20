@@ -1,0 +1,7 @@
+.env
+gcloud-pass.json
+.DS_Store
+google-cloud-sdk/
+bin/
+lib/
+pyvenv.cfg
