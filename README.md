@@ -10,6 +10,7 @@ This is also my first time using Arduino on my own and second time using Arduino
 
 Followed [this tutorial](https://cloud.google.com/natural-language/docs/sentiment-tutorial) for Google Cloud Sentiment Analysis.
 Followed [this tutorial](https://realpython.com/arduino-python/) to learn how to set up my Arduino with Python
+Followed [this tutorial](https://www.digitalocean.com/community/tutorials/how-to-make-a-web-application-using-flask-in-python-3) for setting up a Flask App
 
 This is also my first time trying my own project with Google Cloud Machine Learning for a hackathon!
 
