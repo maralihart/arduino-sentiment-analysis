@@ -1,6 +1,7 @@
 ### Arduino Sentiment Analysis for AstonHack 2021
 
 This project is a submission for AstonHack.
+
 **Please do not mark this as cheating - I know it may be sketchy that I uploaded everything at once, but I had not put google-cloud-sdk in my .gitignore so it wouldn't push and by the time I noticed, I tried just deleting all of the git history, but it caused an error so I had to just redo the GitHub repo**
 
 The concept is to use Google Cloud for Sentiment Analysis and then create a connection to an Arduino board to show a colored light based on the sentiment analysis. If time permits, I'll also be making a web app version.
@@ -30,7 +31,7 @@ I followed documentation on Google Cloud's website on how to set up sentiment an
 I also created a Flask app to allow for a software implementation of this app.
 
 ## Challenges we ran into
-I had trouble connecting the Arduino to the Python as the recommend library required 3.7 and I had 3.8.
+I had trouble connecting the Arduino to the Python as the recommend library required 3.7 and I had 3.8. I also am not familiar with setting up apps; I often work on them, but they're set up first and then I help out, so that was a learning curve. I'm pretty new to Flask and haven't done my own Flask project before.
 ## Accomplishments that we're proud of
 This is my first time working on a hardware hack as well as my first time working on machine learning by myself. I don't believe I've used Google Cloud before, aside from Google Maps and Google Calendar.
 
