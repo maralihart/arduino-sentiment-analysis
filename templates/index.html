@@ -6,7 +6,20 @@
     <div class="col">
       <h1>Sentiment Analysis</h1>
       <hr>
-      <form action="/analyze-text" method="POST">
+      <form action="/" method="POST">
+
+        {% if analysis %}
+          {% if analysis < -(0.2) %}
+            <p class="text-danger float-right">Text analyzed is negative</p>
+          {% elif analysis <= (0.2) %}
+            <p class="text-alert float-right">Text analyzed is neutral</p>
+          {% else %}
+            <p class="text-success float-right">Text analyzed is positive</p>
+          {% endif %}
+          <p>
+            {{ text }}
+          </p>
+        {% endif %}
 
         <div class="form-group">
           <label>Text to Analyze</label>
@@ -15,6 +28,9 @@
 
         <button type="submit" class="btn btn-primary">Analyze Text</button>
       
+        {% if feedback %}
+          <p class="text-danger float-right">{{ feedback }}</p>
+        {% endif %}
       </form>
     </div>
   </div>
